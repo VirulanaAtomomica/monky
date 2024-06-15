@@ -21,9 +21,15 @@
 </head>
 <body>
     <a-scene embedded arjs>
-        <!-- Marcador  Hiro -->
+        <!-- Marcador Hiro -->
         <a-marker preset="hiro">
             <!-- Modelo 3D -->
-            <a-entity position="0 0 0" rotation="0 0 0" scale="0.01 0.01 0.01" gltf-model="url(monky monky.glb)">
+            <a-entity position="0 0 0" rotation="0 0 0" scale="0.01 0.01 0.01" gltf-model="url(tu_modelo.glb)">
             </a-entity>
-
+        </a-marker>
+        
+        <!-- Ajustes de la cámara -->
+        <a-entity camera position="0 0 5" far="20"></a-entity>
+    </a-scene>
+</body>
+</html>
